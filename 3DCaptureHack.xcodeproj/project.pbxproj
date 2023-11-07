@@ -214,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				57C8883D2AFA347600F759CF /* SignUpUI.swift */,
+				F2B43BDE2AFA50650059F514 /* FirebaseService.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -421,6 +422,7 @@
 				F21823E42AFA571B00565121 /* AppDelegate.swift in Sources */,
 				57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */,
 				57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */,
+				F2B43BA32AFA4F050059F514 /* AppDelegate.swift in Sources */,
 				57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */,
 				57C888542AFA534E00F759CF /* HomeUI.swift in Sources */,
 				F21824202AFA57F300565121 /* FireBaseService.swift in Sources */,
