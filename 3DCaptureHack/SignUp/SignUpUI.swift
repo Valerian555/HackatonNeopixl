@@ -57,6 +57,7 @@ struct SignUpUI: View {
                         if password != passwordAgain {
                             showAlert = true
                         }
+                        createAccount(email: email, password: password, username: username)
                     } label: {
                         ZStack {
                             Text("SIGN UP")
