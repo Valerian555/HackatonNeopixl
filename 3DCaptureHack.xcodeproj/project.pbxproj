@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		57C888102AFA29F000F759CF /* _DCaptureHackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */; };
+		57C888102AFA29F000F759CF /* ThreeDCaptureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8880F2AFA29F000F759CF /* ThreeDCaptureApp.swift */; };
 		57C888122AFA29F000F759CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888112AFA29F000F759CF /* ContentView.swift */; };
 		57C888142AFA29F100F759CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C888132AFA29F100F759CF /* Assets.xcassets */; };
 		57C888172AFA29F100F759CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C888162AFA29F100F759CF /* Preview Assets.xcassets */; };
@@ -18,6 +18,8 @@
 		57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8883F2AFA34AE00F759CF /* FlatGlassModifier.swift */; };
 		57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */; };
 		57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888432AFA34CC00F759CF /* ConcaveGlassModifier.swift */; };
+		57C888512AFA52AA00F759CF /* LoginUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888502AFA52AA00F759CF /* LoginUI.swift */; };
+		57C888542AFA534E00F759CF /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888532AFA534E00F759CF /* HomeUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 
 /* Begin PBXFileReference section */
 		57C8880C2AFA29F000F759CF /* 3DCaptureHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCaptureHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCaptureHackApp.swift; sourceTree = "<group>"; };
+		57C8880F2AFA29F000F759CF /* ThreeDCaptureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDCaptureApp.swift; sourceTree = "<group>"; };
 		57C888112AFA29F000F759CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57C888132AFA29F100F759CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C888162AFA29F100F759CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		57C8883F2AFA34AE00F759CF /* FlatGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatGlassModifier.swift; sourceTree = "<group>"; };
 		57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvexGlassModifier.swift; sourceTree = "<group>"; };
 		57C888432AFA34CC00F759CF /* ConcaveGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcaveGlassModifier.swift; sourceTree = "<group>"; };
+		57C888502AFA52AA00F759CF /* LoginUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUI.swift; sourceTree = "<group>"; };
+		57C888532AFA534E00F759CF /* HomeUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +107,10 @@
 			isa = PBXGroup;
 			children = (
 				57C888462AFA359D00F759CF /* Modifier */,
+				57C888552AFA536000F759CF /* HomeUI */,
+				57C888522AFA532000F759CF /* LoginUI */,
 				57C888452AFA359300F759CF /* SignUp */,
-				57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */,
+				57C8880F2AFA29F000F759CF /* ThreeDCaptureApp.swift */,
 				57C888112AFA29F000F759CF /* ContentView.swift */,
 				57C888132AFA29F100F759CF /* Assets.xcassets */,
 				57C888152AFA29F100F759CF /* Preview Content */,
@@ -153,6 +159,22 @@
 				57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		57C888522AFA532000F759CF /* LoginUI */ = {
+			isa = PBXGroup;
+			children = (
+				57C888502AFA52AA00F759CF /* LoginUI.swift */,
+			);
+			path = LoginUI;
+			sourceTree = "<group>";
+		};
+		57C888552AFA536000F759CF /* HomeUI */ = {
+			isa = PBXGroup;
+			children = (
+				57C888532AFA534E00F759CF /* HomeUI.swift */,
+			);
+			name = HomeUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,11 +308,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C8883E2AFA347600F759CF /* SignUpUI.swift in Sources */,
+				57C888512AFA52AA00F759CF /* LoginUI.swift in Sources */,
 				57C888122AFA29F000F759CF /* ContentView.swift in Sources */,
 				57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */,
 				57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */,
 				57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */,
-				57C888102AFA29F000F759CF /* _DCaptureHackApp.swift in Sources */,
+				57C888542AFA534E00F759CF /* HomeUI.swift in Sources */,
+				57C888102AFA29F000F759CF /* ThreeDCaptureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

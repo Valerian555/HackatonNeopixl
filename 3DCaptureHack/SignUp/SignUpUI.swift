@@ -62,7 +62,7 @@ struct SignUpUI: View {
                             Text("SIGN UP")
                                 .bold()
                                 .frame(maxWidth: .infinity, maxHeight: 50)
-                                .modifier(ConcaveGlassModifier())
+                                .modifier(ConvexGlassModifier())
                                 .padding(.bottom, 8)
                         }
                     }
