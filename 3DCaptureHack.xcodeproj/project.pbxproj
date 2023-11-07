@@ -50,6 +50,7 @@
 		F218241C2AFA574100565121 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F218241B2AFA574100565121 /* FirebaseStorageCombine-Community */; };
 		F218241E2AFA575600565121 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F218241D2AFA575600565121 /* GoogleService-Info.plist */; };
 		F21824202AFA57F300565121 /* FireBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218241F2AFA57F300565121 /* FireBaseService.swift */; };
+		F21824222AFA5E0D00565121 /* CapturePrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		F21823E32AFA571B00565121 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Capture3DHack/3DCaptureHack/3DCaptureHack/AppDelegate.swift; sourceTree = "<group>"; };
 		F218241D2AFA575600565121 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Capture3DHack/3DCaptureHack/3DCaptureHack/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F218241F2AFA57F300565121 /* FireBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseService.swift; sourceTree = "<group>"; };
+		F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePrimaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				F21823E32AFA571B00565121 /* AppDelegate.swift */,
 				57C888132AFA29F100F759CF /* Assets.xcassets */,
 				57C888152AFA29F100F759CF /* Preview Content */,
+				F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */,
 			);
 			path = 3DCaptureHack;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				57C8883E2AFA347600F759CF /* SignUpUI.swift in Sources */,
 				57C888512AFA52AA00F759CF /* LoginUI.swift in Sources */,
 				57C888122AFA29F000F759CF /* ContentView.swift in Sources */,
+				F21824222AFA5E0D00565121 /* CapturePrimaryView.swift in Sources */,
 				F21823E42AFA571B00565121 /* AppDelegate.swift in Sources */,
 				57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */,
 				57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */,
