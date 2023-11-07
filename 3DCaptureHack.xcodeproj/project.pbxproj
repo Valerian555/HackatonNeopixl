@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C888102AFA29F000F759CF /* _DCaptureHackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */; };
+		57C888122AFA29F000F759CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888112AFA29F000F759CF /* ContentView.swift */; };
+		57C888142AFA29F100F759CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C888132AFA29F100F759CF /* Assets.xcassets */; };
+		57C888172AFA29F100F759CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C888162AFA29F100F759CF /* Preview Assets.xcassets */; };
+		57C888212AFA29F100F759CF /* _DCaptureHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888202AFA29F100F759CF /* _DCaptureHackTests.swift */; };
+		57C8882B2AFA29F100F759CF /* _DCaptureHackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8882A2AFA29F100F759CF /* _DCaptureHackUITests.swift */; };
+		57C8882D2AFA29F100F759CF /* _DCaptureHackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8882C2AFA29F100F759CF /* _DCaptureHackUITestsLaunchTests.swift */; };
+		57C8883E2AFA347600F759CF /* SignUpUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8883D2AFA347600F759CF /* SignUpUI.swift */; };
+		57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8883F2AFA34AE00F759CF /* FlatGlassModifier.swift */; };
+		57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */; };
+		57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C888432AFA34CC00F759CF /* ConcaveGlassModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C8881D2AFA29F100F759CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C888042AFA29F000F759CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8880B2AFA29F000F759CF;
+			remoteInfo = 3DCaptureHack;
+		};
+		57C888272AFA29F100F759CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C888042AFA29F000F759CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8880B2AFA29F000F759CF;
+			remoteInfo = 3DCaptureHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C8880C2AFA29F000F759CF /* 3DCaptureHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DCaptureHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCaptureHackApp.swift; sourceTree = "<group>"; };
+		57C888112AFA29F000F759CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57C888132AFA29F100F759CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C888162AFA29F100F759CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57C8881C2AFA29F100F759CF /* 3DCaptureHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DCaptureHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C888202AFA29F100F759CF /* _DCaptureHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCaptureHackTests.swift; sourceTree = "<group>"; };
+		57C888262AFA29F100F759CF /* 3DCaptureHackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3DCaptureHackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C8882A2AFA29F100F759CF /* _DCaptureHackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCaptureHackUITests.swift; sourceTree = "<group>"; };
+		57C8882C2AFA29F100F759CF /* _DCaptureHackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _DCaptureHackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57C8883D2AFA347600F759CF /* SignUpUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUI.swift; sourceTree = "<group>"; };
+		57C8883F2AFA34AE00F759CF /* FlatGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatGlassModifier.swift; sourceTree = "<group>"; };
+		57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvexGlassModifier.swift; sourceTree = "<group>"; };
+		57C888432AFA34CC00F759CF /* ConcaveGlassModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcaveGlassModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C888092AFA29F000F759CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C888192AFA29F100F759CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C888232AFA29F100F759CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C888032AFA29F000F759CF = {
+			isa = PBXGroup;
+			children = (
+				57C8880E2AFA29F000F759CF /* 3DCaptureHack */,
+				57C8881F2AFA29F100F759CF /* 3DCaptureHackTests */,
+				57C888292AFA29F100F759CF /* 3DCaptureHackUITests */,
+				57C8880D2AFA29F000F759CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C8880D2AFA29F000F759CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C8880C2AFA29F000F759CF /* 3DCaptureHack.app */,
+				57C8881C2AFA29F100F759CF /* 3DCaptureHackTests.xctest */,
+				57C888262AFA29F100F759CF /* 3DCaptureHackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C8880E2AFA29F000F759CF /* 3DCaptureHack */ = {
+			isa = PBXGroup;
+			children = (
+				57C888462AFA359D00F759CF /* Modifier */,
+				57C888452AFA359300F759CF /* SignUp */,
+				57C8880F2AFA29F000F759CF /* _DCaptureHackApp.swift */,
+				57C888112AFA29F000F759CF /* ContentView.swift */,
+				57C888132AFA29F100F759CF /* Assets.xcassets */,
+				57C888152AFA29F100F759CF /* Preview Content */,
+			);
+			path = 3DCaptureHack;
+			sourceTree = "<group>";
+		};
+		57C888152AFA29F100F759CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				57C888162AFA29F100F759CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57C8881F2AFA29F100F759CF /* 3DCaptureHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C888202AFA29F100F759CF /* _DCaptureHackTests.swift */,
+			);
+			path = 3DCaptureHackTests;
+			sourceTree = "<group>";
+		};
+		57C888292AFA29F100F759CF /* 3DCaptureHackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57C8882A2AFA29F100F759CF /* _DCaptureHackUITests.swift */,
+				57C8882C2AFA29F100F759CF /* _DCaptureHackUITestsLaunchTests.swift */,
+			);
+			path = 3DCaptureHackUITests;
+			sourceTree = "<group>";
+		};
+		57C888452AFA359300F759CF /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				57C8883D2AFA347600F759CF /* SignUpUI.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		57C888462AFA359D00F759CF /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				57C8883F2AFA34AE00F759CF /* FlatGlassModifier.swift */,
+				57C888432AFA34CC00F759CF /* ConcaveGlassModifier.swift */,
+				57C888412AFA34BE00F759CF /* ConvexGlassModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C8880B2AFA29F000F759CF /* 3DCaptureHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C888302AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHack" */;
+			buildPhases = (
+				57C888082AFA29F000F759CF /* Sources */,
+				57C888092AFA29F000F759CF /* Frameworks */,
+				57C8880A2AFA29F000F759CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DCaptureHack;
+			productName = 3DCaptureHack;
+			productReference = 57C8880C2AFA29F000F759CF /* 3DCaptureHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C8881B2AFA29F100F759CF /* 3DCaptureHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C888332AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHackTests" */;
+			buildPhases = (
+				57C888182AFA29F100F759CF /* Sources */,
+				57C888192AFA29F100F759CF /* Frameworks */,
+				57C8881A2AFA29F100F759CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C8881E2AFA29F100F759CF /* PBXTargetDependency */,
+			);
+			name = 3DCaptureHackTests;
+			productName = 3DCaptureHackTests;
+			productReference = 57C8881C2AFA29F100F759CF /* 3DCaptureHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57C888252AFA29F100F759CF /* 3DCaptureHackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C888362AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHackUITests" */;
+			buildPhases = (
+				57C888222AFA29F100F759CF /* Sources */,
+				57C888232AFA29F100F759CF /* Frameworks */,
+				57C888242AFA29F100F759CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C888282AFA29F100F759CF /* PBXTargetDependency */,
+			);
+			name = 3DCaptureHackUITests;
+			productName = 3DCaptureHackUITests;
+			productReference = 57C888262AFA29F100F759CF /* 3DCaptureHackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C888042AFA29F000F759CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					57C8880B2AFA29F000F759CF = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					57C8881B2AFA29F100F759CF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 57C8880B2AFA29F000F759CF;
+					};
+					57C888252AFA29F100F759CF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 57C8880B2AFA29F000F759CF;
+					};
+				};
+			};
+			buildConfigurationList = 57C888072AFA29F000F759CF /* Build configuration list for PBXProject "3DCaptureHack" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C888032AFA29F000F759CF;
+			productRefGroup = 57C8880D2AFA29F000F759CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C8880B2AFA29F000F759CF /* 3DCaptureHack */,
+				57C8881B2AFA29F100F759CF /* 3DCaptureHackTests */,
+				57C888252AFA29F100F759CF /* 3DCaptureHackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C8880A2AFA29F000F759CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C888172AFA29F100F759CF /* Preview Assets.xcassets in Resources */,
+				57C888142AFA29F100F759CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8881A2AFA29F100F759CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C888242AFA29F100F759CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C888082AFA29F000F759CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8883E2AFA347600F759CF /* SignUpUI.swift in Sources */,
+				57C888122AFA29F000F759CF /* ContentView.swift in Sources */,
+				57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */,
+				57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */,
+				57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */,
+				57C888102AFA29F000F759CF /* _DCaptureHackApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C888182AFA29F100F759CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C888212AFA29F100F759CF /* _DCaptureHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C888222AFA29F100F759CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8882B2AFA29F100F759CF /* _DCaptureHackUITests.swift in Sources */,
+				57C8882D2AFA29F100F759CF /* _DCaptureHackUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C8881E2AFA29F100F759CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C8880B2AFA29F000F759CF /* 3DCaptureHack */;
+			targetProxy = 57C8881D2AFA29F100F759CF /* PBXContainerItemProxy */;
+		};
+		57C888282AFA29F100F759CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C8880B2AFA29F000F759CF /* 3DCaptureHack */;
+			targetProxy = 57C888272AFA29F100F759CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		57C8882E2AFA29F100F759CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57C8882F2AFA29F100F759CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C888312AFA29F100F759CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3DCaptureHack/Preview Content\"";
+				DEVELOPMENT_TEAM = W6964STS43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C888322AFA29F100F759CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"3DCaptureHack/Preview Content\"";
+				DEVELOPMENT_TEAM = W6964STS43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57C888342AFA29F100F759CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6964STS43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DCaptureHack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3DCaptureHack";
+			};
+			name = Debug;
+		};
+		57C888352AFA29F100F759CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6964STS43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3DCaptureHack.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/3DCaptureHack";
+			};
+			name = Release;
+		};
+		57C888372AFA29F100F759CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6964STS43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DCaptureHack;
+			};
+			name = Debug;
+		};
+		57C888382AFA29F100F759CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6964STS43;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = 3DCaptureHack;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C888072AFA29F000F759CF /* Build configuration list for PBXProject "3DCaptureHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8882E2AFA29F100F759CF /* Debug */,
+				57C8882F2AFA29F100F759CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C888302AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C888312AFA29F100F759CF /* Debug */,
+				57C888322AFA29F100F759CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C888332AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C888342AFA29F100F759CF /* Debug */,
+				57C888352AFA29F100F759CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C888362AFA29F100F759CF /* Build configuration list for PBXNativeTarget "3DCaptureHackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C888372AFA29F100F759CF /* Debug */,
+				57C888382AFA29F100F759CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C888042AFA29F000F759CF /* Project object */;
+}
