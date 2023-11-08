@@ -10,6 +10,8 @@ import SwiftUI
 @main
 struct ThreeDCaptureApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject var appModel: AppDataModel = AppDataModel.instance
+    static let subsystem: String = "io.raphaelfassotte.rfst.-DCaptureHack1"
     init() {
         // Configuration de l'apparence de la barre de navigation
         let appearanceNavBar = UINavigationBarAppearance()
@@ -36,7 +38,8 @@ struct ThreeDCaptureApp: App {
 
     var body: some Scene {
         WindowGroup {
-            SignUpUI()
+            ContentView()
+                .environmentObject(appModel)
         }
     }
 }

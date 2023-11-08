@@ -51,6 +51,13 @@
 		F218241E2AFA575600565121 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F218241D2AFA575600565121 /* GoogleService-Info.plist */; };
 		F21824202AFA57F300565121 /* FireBaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218241F2AFA57F300565121 /* FireBaseService.swift */; };
 		F21824222AFA5E0D00565121 /* CapturePrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */; };
+		F218242A2AFA763A00565121 /* AppDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21824292AFA763A00565121 /* AppDataModel.swift */; };
+		F21824352AFA87E000565121 /* CaptureFolderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21824342AFA87E000565121 /* CaptureFolderManager.swift */; };
+		F21824392AFA886700565121 /* ShotFileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21824382AFA886700565121 /* ShotFileInfo.swift */; };
+		F218243D2AFA8C2100565121 /* AppDataModel+Orbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218243C2AFA8C2100565121 /* AppDataModel+Orbit.swift */; };
+		F218243F2AFA8C5A00565121 /* AppDataModel+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218243E2AFA8C5A00565121 /* AppDataModel+State.swift */; };
+		F218245D2AFA909100565121 /* CaptureOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218245C2AFA909100565121 /* CaptureOverlayView.swift */; };
+		F218245F2AFA918C00565121 /* CaptureOverlayView+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F218245E2AFA918C00565121 /* CaptureOverlayView+Buttons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +98,16 @@
 		F218241D2AFA575600565121 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Capture3DHack/3DCaptureHack/3DCaptureHack/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F218241F2AFA57F300565121 /* FireBaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseService.swift; sourceTree = "<group>"; };
 		F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapturePrimaryView.swift; sourceTree = "<group>"; };
+		F21824292AFA763A00565121 /* AppDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataModel.swift; sourceTree = "<group>"; };
+		F21824342AFA87E000565121 /* CaptureFolderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureFolderManager.swift; sourceTree = "<group>"; };
+		F21824382AFA886700565121 /* ShotFileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotFileInfo.swift; sourceTree = "<group>"; };
+		F218243C2AFA8C2100565121 /* AppDataModel+Orbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataModel+Orbit.swift"; sourceTree = "<group>"; };
+		F218243E2AFA8C5A00565121 /* AppDataModel+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDataModel+State.swift"; sourceTree = "<group>"; };
+		F218245C2AFA909100565121 /* CaptureOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOverlayView.swift; sourceTree = "<group>"; };
+		F218245E2AFA918C00565121 /* CaptureOverlayView+Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaptureOverlayView+Buttons.swift"; sourceTree = "<group>"; };
+		F2EDD7092AFB6CE7007484D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2EDD70A2AFB6CED007484D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Capture3DHack/3DCaptureHack/3DCaptureHack/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F2EDD70B2AFB6CF4007484D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Capture3DHack/3DCaptureHack/3DCaptureHack/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +186,9 @@
 		57C8880E2AFA29F000F759CF /* 3DCaptureHack */ = {
 			isa = PBXGroup;
 			children = (
+				F2EDD7082AFB6CE2007484D5 /* Firebase */,
+				F218242B2AFA7F9700565121 /* Capture */,
 				F218241D2AFA575600565121 /* GoogleService-Info.plist */,
-				F218241F2AFA57F300565121 /* FireBaseService.swift */,
 				57C888462AFA359D00F759CF /* Modifier */,
 				57C888552AFA536000F759CF /* HomeUI */,
 				57C888522AFA532000F759CF /* LoginUI */,
@@ -180,7 +198,6 @@
 				F21823E32AFA571B00565121 /* AppDelegate.swift */,
 				57C888132AFA29F100F759CF /* Assets.xcassets */,
 				57C888152AFA29F100F759CF /* Preview Content */,
-				F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */,
 			);
 			path = 3DCaptureHack;
 			sourceTree = "<group>";
@@ -214,7 +231,6 @@
 			isa = PBXGroup;
 			children = (
 				57C8883D2AFA347600F759CF /* SignUpUI.swift */,
-				F2B43BDE2AFA50650059F514 /* FirebaseService.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -250,6 +266,48 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F218242B2AFA7F9700565121 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				F21824342AFA87E000565121 /* CaptureFolderManager.swift */,
+				F2EDD7072AFB6CCE007484D5 /* Views */,
+				F2EDD7062AFB6CB5007484D5 /* Components */,
+				F21824292AFA763A00565121 /* AppDataModel.swift */,
+				F21824382AFA886700565121 /* ShotFileInfo.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		F2EDD7062AFB6CB5007484D5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F218243E2AFA8C5A00565121 /* AppDataModel+State.swift */,
+				F218243C2AFA8C2100565121 /* AppDataModel+Orbit.swift */,
+				F218245E2AFA918C00565121 /* CaptureOverlayView+Buttons.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2EDD7072AFB6CCE007484D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F21824212AFA5E0D00565121 /* CapturePrimaryView.swift */,
+				F218245C2AFA909100565121 /* CaptureOverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2EDD7082AFB6CE2007484D5 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				F2EDD70A2AFB6CED007484D5 /* GoogleService-Info.plist */,
+				F2EDD70B2AFB6CF4007484D5 /* GoogleService-Info.plist */,
+				F218241F2AFA57F300565121 /* FireBaseService.swift */,
+				F2EDD7092AFB6CE7007484D5 /* GoogleService-Info.plist */,
+			);
+			path = Firebase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,13 +474,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				57C8883E2AFA347600F759CF /* SignUpUI.swift in Sources */,
+				F218242A2AFA763A00565121 /* AppDataModel.swift in Sources */,
 				57C888512AFA52AA00F759CF /* LoginUI.swift in Sources */,
+				F218245D2AFA909100565121 /* CaptureOverlayView.swift in Sources */,
+				F218245F2AFA918C00565121 /* CaptureOverlayView+Buttons.swift in Sources */,
 				57C888122AFA29F000F759CF /* ContentView.swift in Sources */,
 				F21824222AFA5E0D00565121 /* CapturePrimaryView.swift in Sources */,
+				F21824392AFA886700565121 /* ShotFileInfo.swift in Sources */,
 				F21823E42AFA571B00565121 /* AppDelegate.swift in Sources */,
+				F218243D2AFA8C2100565121 /* AppDataModel+Orbit.swift in Sources */,
+				F21824352AFA87E000565121 /* CaptureFolderManager.swift in Sources */,
 				57C888402AFA34AE00F759CF /* FlatGlassModifier.swift in Sources */,
 				57C888442AFA34CC00F759CF /* ConcaveGlassModifier.swift in Sources */,
-				F2B43BA32AFA4F050059F514 /* AppDelegate.swift in Sources */,
+				F218243F2AFA8C5A00565121 /* AppDataModel+State.swift in Sources */,
 				57C888422AFA34BE00F759CF /* ConvexGlassModifier.swift in Sources */,
 				57C888542AFA534E00F759CF /* HomeUI.swift in Sources */,
 				F21824202AFA57F300565121 /* FireBaseService.swift in Sources */,
@@ -587,12 +651,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"3DCaptureHack/Preview Content\"";
-				DEVELOPMENT_TEAM = W6964STS43;
+				DEVELOPMENT_TEAM = NLYD7P5TRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -603,8 +669,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -616,12 +683,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"3DCaptureHack/Preview Content\"";
-				DEVELOPMENT_TEAM = W6964STS43;
+				DEVELOPMENT_TEAM = NLYD7P5TRD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera needed";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -632,8 +701,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.raphaelfassotte.rfst.-DCaptureHack1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
